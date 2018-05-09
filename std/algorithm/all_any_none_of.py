@@ -1,2 +1,2 @@
 def all_of(iterable, predicate):
-    return True
+    return all(map(predicate, iterable))
